@@ -121,6 +121,15 @@
             "inventory" : []
         }, 
         {
+            "UID" : 30,
+            "hp" : 7,
+            "race" : "Elf",
+            "class" : "Druid",
+            "agility" : 13,
+            "weapon_damage" : 3,
+            "inventory" : []
+        },
+        {
             "UID" : 11, 
             "hp" : 9,
             "Name" : "Milton",
