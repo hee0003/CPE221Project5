@@ -13,6 +13,7 @@
 #include "mage.hpp"
 #include "rogue.hpp"
 #include "priest.hpp"
+#include "druid.hpp"
 
 
 
@@ -79,6 +80,9 @@ int main(int argc, char *argv[])
                 iss >> input >> who >> type >> id;
                 switch(type)
                 {
+                case 'd':
+                    encounter.AddEntity(new Druid(builder, inventory, id));
+                    break;
                 case 'w': 
                     encounter.AddEntity(new Warrior(builder, inventory, id));
                     break;
