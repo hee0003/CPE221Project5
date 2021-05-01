@@ -10,13 +10,13 @@ Druid::Druid(JsonEntityBuilder &builder, JsonItemBuilder & inventory, uint32_t u
 
 void Druid::FlamingSphere(Entity * target)
 {
-    Attack(target, GetWisdom() * 1.0, "Flaming Sphere");
+    Attack(target, GetAgility() * 1.0, "Flaming Sphere");
 }
 
 
 void Druid::HealingWord(Entity *target)
 {
-    Heal(target, GetWisdom() * 2.0, "Healing Word");
+    Heal(target, GetAgility() * 2.0, "Healing Word");
 }
 
 
