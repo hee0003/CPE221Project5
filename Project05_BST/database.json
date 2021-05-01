@@ -123,6 +123,7 @@
         {
             "UID" : 30,
             "hp" : 7,
+            "Name" : "Juniper",
             "race" : "Elf",
             "class" : "Druid",
             "agility" : 13,
